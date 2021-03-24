@@ -1,0 +1,47 @@
+.slider-cont {
+    overflow: hidden;
+    margin: 0;
+}
+.slider {
+    width: 400%;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    left: 0;
+    animation: slider 10s infinite;
+}
+.slider img {
+    float: left;
+    width: 25%;
+   
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: 0;
+    } 
+
+    30% {
+        left: -100%;
+    }
+    55% {
+        left: -100%;
+    }
+
+    60% {
+        left: -200%;
+    }
+    85% {
+        left: -200%;
+    }
+    90% {
+        left: -300%;
+    }
+    100% {
+        left: -300%;
+    }
+   
+    
+}

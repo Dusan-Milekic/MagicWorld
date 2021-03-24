@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+header {
+  top: 0;
+}
+.game {
+  margin-top: 100px;
+  top: 100px;
+  position: relative;
+}
+.timer {
+  max-width: 300px;
+  font-family: "DotGothic16", sans-serif;
+  margin: 0px auto;
+  text-align: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top: 7px solid rgb(118, 118, 118);
+  border-left: 7px solid rgb(118, 118, 118);
+  border-right: 7px solid rgb(118, 118, 118);
+  border-bottom: 1px solid rgb(118, 118, 118);
+  background-color: black;
+}
+.timer p {
+  padding: 0 5px;
+}
+.gameplay {
+  font-family: "DotGothic16", sans-serif;
+  max-width: 1300px;
+  margin: 0px auto;
+  min-height: 420px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  place-items: center;
+  background-color: black;
+  border-top: 7px solid rgb(118, 118, 118);
+  border-left: 7px solid rgb(118, 118, 118);
+  border-right: 7px solid rgb(118, 118, 118);
+  border-bottom: 2px solid rgb(118, 118, 118);
+}
+hr {
+  width: 5px;
+  height: 90%;
+  background-color: white;
+}
+.gameplay div p {
+  color: white;
+
+  font-size: calc(1.5rem + 0.8vw);
+}
+button {
+  cursor: pointer;
+}
+
+.game .buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.game .buttons button,
+#start {
+  font-family: "Gill Sans", sans-serif;
+  display: block;
+  margin: 0 5px;
+  font-size: calc(1rem + 0.7vw);
+  font-weight: bold;
+  padding: 2px 15px;
+  background-color: black;
+  color: #0a9c0a;
+  position: relative;
+}
+#papir {
+  padding: 0px 26px;
+}
+#start {
+  margin: 20px auto;
+  color: yellow;
+}
+
+.result-cont {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 70px;
+  padding: 20px 0px 30px 0px;
+  font-family: "DotGothic16", sans-serif;
+  background-color: black;
+  border-radius: 50px;
+}
+.result-cont h3,
+p {
+  color: #0a9c0a;
+}
+.result p {
+  font-size: calc(1.5rem + 0.6vw);
+  padding: 0;
+  border-top: 1px dotted #0a9c0a;
+  width: 50%;
+  margin: auto;
+}

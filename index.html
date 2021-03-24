@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="slider.css">
+        <link rel="stylesheet" href="navigation/navigation.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header>
+            <h3>MagicWorld</h3>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#home" id="home-link">Home</a></li>
+                    <li><a href="#games" id="games-link">Games</a></li>
+                    <li><a href="#about" id="about-link">About</a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu">
+                <div id="burger1"></div>
+                <div id="burger2"></div>
+                <div id="burger3"></div>
+            </div>
+        </header>
+
+        <main>
+            <section class="home" id="home">
+                <div class="container">
+                    <h1 id="welcome">Welcome to Magic!</h1>
+                </div>
+            </section>
+
+            <section class="games" id="games">
+                <div class="container"> 
+                    <h1>Games</h1>
+                    <div class="game-content">
+                        <div class="item">
+                            <!-- Slider -->
+                            <div class="slider-cont">
+                                <div class="slider">
+                                    <img src="games/teaser/tizer (1).png" alt="tizer">
+                                    <img src="games/teaser/tizer (2).png" alt="tizer2">
+                                    <img src="games/teaser/tizer (3).png" alt="tizer3">
+                                    <img src="games/teaser/tizer (1).png" alt="tizer">
+                                </div>
+                            </div>
+                     
+                            <!-- Slider END -->
+                            <h3>Game 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptas officiis dolorum vero facere. Amet delectus vitae perferendis dolorem facilis?</p>
+                            <a href="games/game1.html" class="btn-a">Play</a>
+                        </div>
+
+                        <div class="item">
+                            <img src="material/game.png" alt="game">
+                            <h3>Game 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptas officiis dolorum vero facere. Amet delectus vitae perferendis dolorem facilis?</p>
+                            <a href="games/game1.html" class="btn-a">Play</a>
+                        </div>
+
+                        <div id="lastItem" class="item">
+                            <img src="material/game.png" alt="game">
+                            <h3>Game 3</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptas officiis dolorum vero facere. Amet delectus vitae perferendis dolorem facilis?</p>
+                            <a href="games/game1.html" class="btn-a">Play</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section class="about" id="about">
+                <div class="container">
+                    <h1>About us</h1>
+                    <div class="about-content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam mollitia voluptas, est laudantium iusto inventore voluptatem adipisci sapiente magni hic a doloribus explicabo provident veniam fugit nulla, cupiditate quaerat doloremque<br><br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis provident commodi autem ex ipsa atque cum facilis eum distinctio qui ipsam cupiditate tempora, quo ratione mollitia nihil quisquam facere quis harum obcaecati eaque aspernatur. Adipisci nisi a similique perferendis sed reprehenderit debitis, obcaecati unde? Fuga eligendi quas quod unde!<br><br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet similique vel aspernatur, voluptatibus hic facilis distinctio reiciendis quasi neque a, in adipisci expedita iusto, assumenda quas sint dolorem quibusdam sunt?</p>
+                        <img src="material/wizard.svg" alt="logo">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <span>develop by Dusan Milekic</span>
+            <span>&copy;Milekic</span>
+            
+        </footer>
+        
+        <script src="navigation/navigation.js"></script>
+    </body>
+</html>

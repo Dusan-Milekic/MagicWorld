@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="game.css">
+        <link rel="stylesheet" href="../navigation/navigation.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header>
+            <h3>MagicWorld</h3>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="../index.html" id="home-link">Home</a></li>
+                    <li><a href="../index.html" id="games-link">Games</a></li>
+                    <li><a href="../index.html" id="about-link">About</a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu">
+                <div id="burger1"></div>
+                <div id="burger2"></div>
+                <div id="burger3"></div>
+            </div>
+        </header>
+
+        <section class="game">
+
+            <button id="start">Start</button>
+            <div class="timer">
+                <p id="countdown">0</p>
+            </div>
+            <div class="gameplay">
+                <div class="human-side"><p id="resultPlayer">You</p></div>
+                <hr>
+                <div class="robot-side"><p id="resultBot">Robot</p></div>
+            </div>
+            <div class="buttons">
+                <button id="papir">Papir</button>
+                <button id="kamen">Kamen</button>
+                <button id="makaze">Makaze</button>
+               
+            </div>
+          
+            <div class="result-cont">
+                
+                <h3>Result</h3>
+                <div class="result">
+                    <p id="rez">0 : 0</p>
+                    <p id="playerDisplay">Click Start</p>
+                </div>
+
+                
+            </div>
+        </section>
+        <script src="../navigation/navigation.js"></script>
+        <script src="timer.js"></script>
+        <script src="game1.js"></script>
+    </body>
+</html>
